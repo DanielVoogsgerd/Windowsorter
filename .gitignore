@@ -1,0 +1,35 @@
+# Rust/Cargo
+/target/
+/debug/
+/release/
+/Cargo.lock
+
+# Generated build files
+/build/
+
+# hyprland IPC socket files (sometimes created during dev)
+# (these are usually outside the repo but ignore common patterns)
+*.socket
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Nix
+/result
+/.nix-channels
+
+# Logs
+.log
+
+# Temporary
+/tmp/
+
+# Visual Studio Code workspace storage
+/.vscode/*
